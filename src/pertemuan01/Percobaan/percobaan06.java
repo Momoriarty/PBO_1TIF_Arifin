@@ -10,7 +10,6 @@ package pertemuan01.Percobaan;
  * @author Lab256-14
  */
 class mahasiswa {
-
     String nama;
     int nim;
 
@@ -18,30 +17,24 @@ class mahasiswa {
         System.out.println("Nama : " + nama);
         System.out.println("Nim  : " + nim);
     }
-
     String tampilkanInfo1(String nama, int nim) {
         System.out.println("Nama : " + nama);
         System.out.println("Nim  : " + nim);
         return "";
     }
-
 }
 
 class persegiPanjang {
-
     int panjang, lebar;
-
     void hitungLuas() {
         System.out.println("Luas : " + panjang * lebar);
     }
-
     void hitungKeliling() {
         System.out.println("Keliling : " + 2 * (panjang + lebar));
     }
 }
 
 public class percobaan06 {
-
     public static void main(String[] args) {
         mahasiswa mhs1 = new mahasiswa();
         mhs1.nama = "Arifin";

@@ -10,33 +10,27 @@ package pertemuan01.Latihan;
  * @author Lab256-14
  */
 class Persegi {
-
     double hitungLuas(int sisi) {
         return sisi * sisi;
     }
-
     double hitungKeliling(int sisi) {
         return 4 * sisi;
     }
 }
 
 class Segitiga {
-
     double hitungLuas(int alas, int tinggi) {
         return 0.5 * alas * tinggi;
     }
-
     double hitungKeliling(int a, int b, int c) {
         return a + b + c;
     }
 }
 
 class Lingkaran {
-
     double hitungLuas(int jr) {
         return Math.PI * jr * jr;
     }
-
     double hitungKeliling(int jr) {
         return 2 * Math.PI * jr;
     }
@@ -44,7 +38,6 @@ class Lingkaran {
 
 // Main Class untuk Pengujian
 public class BangunDatar {
-
     public static void main(String[] args) {
 
         Persegi persegi = new Persegi();

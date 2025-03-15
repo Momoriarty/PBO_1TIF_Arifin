@@ -5,8 +5,6 @@
  */
 package pertemuan01.Percobaan;
 
-import static pertemuan01.Percobaan.percobaan01.motivasi;
-
 /**
  *
  * @author Lab256-14

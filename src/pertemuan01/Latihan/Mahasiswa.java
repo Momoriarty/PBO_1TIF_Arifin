@@ -40,18 +40,19 @@ class Mhs {
 public class Mahasiswa {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Masukkan nama mahasiswa: ");
-        String nama = scanner.nextLine();
+        String nama = sc.nextLine();
 
         System.out.print("Masukkan nilai mahasiswa: ");
-        double nilai = scanner.nextDouble();
+        double nilai = sc.nextDouble();
 
         Mhs mhs = new Mhs();
         mhs.nama = nama;
         mhs.nilai = nilai;
         mhs.tampilkanHasil();
 
+        sc.close();
     }
 }

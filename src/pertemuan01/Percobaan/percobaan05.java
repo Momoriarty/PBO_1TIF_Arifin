@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pertemuan01;
+package pertemuan01.Percobaan;
 
-import static pertemuan01.percobaan01.motivasi;
+import static pertemuan01.Percobaan.percobaan01.motivasi;
 
 /**
  *

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pertemuan01;
+package pertemuan01.Percobaan;
 
 /**
  *
@@ -22,11 +22,5 @@ public class percobaan07 {
         percobaan07 garasi = new percobaan07();
         percobaan07.Mobil mobil = garasi.new Mobil();
         mobil.tampilkanMerek();
-    }
-}
-
-public class Toko {
-    class Laptop {
-            
     }
 }

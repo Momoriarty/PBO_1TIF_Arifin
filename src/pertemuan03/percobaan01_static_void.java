@@ -20,23 +20,9 @@ public class percobaan01_static_void {
         System.out.println("Hasil Penjumlahan :" + a + " + " + b + " : " + hasil);
     }
 
-//    non-Void
-    static String namaUniv() {
-        return "Politeknik Caltex Riau";
-    }
-
-    static double cetakJumlah(double a, double b) {
-        return a + b;
-    }
-
     public static void main(String[] args) {
         cetakPesan();
         CetakPenjumlahan(10, 5);
 
-        String univ = namaUniv();
-        System.out.println("Nama Universitas : " + univ);
-
-        double hasil = cetakJumlah(10, 5);
-        System.out.println("Hasil " + hasil);
     }
 }

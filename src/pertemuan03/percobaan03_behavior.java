@@ -29,5 +29,4 @@ public class percobaan03_behavior {
         m1.infoMakalah();
         m2.infoMakalah();
     }
-
 }

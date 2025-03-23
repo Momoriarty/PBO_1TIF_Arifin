@@ -11,20 +11,17 @@ package pertemuan03;
 public class percobaan02_03 {
 
     int tugas, uas, uts;
-
     void inputNilai(int tugas, int uas, int uts) {
         this.tugas = tugas;
         this.uas = uas;
         this.uts = uts;
     }
-
     void tampilkanNilai() {
         System.out.println("Nilai Mahasiswa A :"
                 + "\n Tugas : " + tugas
                 + "\n UAS : " + uas
                 + "\n UTS : " + uts);
     }
-
     double nilaiAkhir() {
         tugas = (int) (tugas * 0.3);
         uas = (int) (uas * 0.3);
@@ -33,7 +30,6 @@ public class percobaan02_03 {
         int hasil = tugas + uas + uts;
         return hasil;
     }
-
     public static void main(String[] args) {
         percobaan02_03 mhs = new percobaan02_03();
 

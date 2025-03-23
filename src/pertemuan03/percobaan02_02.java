@@ -4,8 +4,6 @@
  */
 package pertemuan03;
 
-import java.util.Scanner;
-
 /**
  *
  * @author LENOVO
@@ -17,7 +15,6 @@ public class percobaan02_02 {
     void setorUang(int nominal) {
         saldo += nominal;
     }
-
     void tarikUang(int nominal) {
         if (saldo >= nominal) {
             saldo -= nominal;
@@ -25,11 +22,9 @@ public class percobaan02_02 {
             System.out.println("Saldo lebih kecil dari nominal yang ingin di tarik.");
         }
     }
-
     int cekSaldo() {
         return saldo;
     }
-
     public static void main(String[] args) {
         percobaan02_02 rekening = new percobaan02_02();
 

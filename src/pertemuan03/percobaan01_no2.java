@@ -14,19 +14,15 @@ public class percobaan01_no2 {
     static double tambah(int a, int b) {
         return a + b;
     }
-
     static double kurang(int a, int b) {
         return a - b;
     }
-
     static double kali(int a, int b) {
         return a * b;
     }
-
     static void pesan(String aritmatika, double hasil) {
         System.out.println("Hasil " + aritmatika + " : " + hasil);
     }
-
     public static void main(String[] args) {
         double hasilTambah = tambah(10, 5);
         pesan("Penjumlahan", hasilTambah);

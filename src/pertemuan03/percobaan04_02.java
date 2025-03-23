@@ -8,7 +8,6 @@ package pertemuan03;
  *
  * @author LENOVO
  */
-import java.util.Calendar;
 
 class Kendaraan {
 
@@ -22,16 +21,13 @@ class Kendaraan {
         System.out.println("Tahun Produksi: " + tahunProduksi);
         System.out.println("Warna: " + warna);
     }
-
     void ubahWarna(String warnaBaru) {
         this.warna = warnaBaru;
         System.out.println("Warna kendaraan berhasil diubah menjadi: " + warna);
     }
-
     int hitungUsia() {
         return tahunSaatIni - tahunProduksi;
     }
-
     public static void main(String[] args) {
         Kendaraan mobil = new Kendaraan();
 

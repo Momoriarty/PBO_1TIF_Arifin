@@ -9,7 +9,6 @@ package pertemuan03;
  * @author LENOVO
  */
 class MahasiswaKe3 {
-
     String nama;
     int umur;
 
@@ -17,23 +16,19 @@ class MahasiswaKe3 {
         nama = "Tidak Diketahui";
         umur = 0;
     }
-
     MahasiswaKe3(String namaMhs) {
         nama = namaMhs;
         umur = 18;
     }
-
     MahasiswaKe3(String namaMhs, int umurMhs) {
         nama = namaMhs;
         umur = umurMhs;
     }
-
     void tampilkanInfo() {
         System.out.println("Nama: " + nama);
         System.out.println("Umur: " + umur);
     }
 }
-
 public class percobaan05_Constructor_Overloading {
 
     public static void main(String[] args) {

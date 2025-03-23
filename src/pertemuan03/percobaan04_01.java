@@ -8,7 +8,7 @@ package pertemuan03;
  *
  * @author LENOVO
  */
-class Mahasiswa {
+class Mahasiswa_04 {
 
     String nama;
     int umur;
@@ -19,18 +19,15 @@ class Mahasiswa {
         System.out.println("Umur: " + umur + " tahun");
         System.out.println("Jurusan: " + jurusan);
     }
-
     void ubahJurusan(String jurusanBaru) {
         jurusan = jurusanBaru;
         System.out.println("Jurusan berhasil diubah menjadi: " + jurusan);
     }
-
     String getInfoMahasiswa() {
         return "Mahasiswa: " + nama + ", Umur: " + umur + ", Jurusan: " + jurusan;
     }
-
     public static void main(String[] args) {
-        Mahasiswa mhs1 = new Mahasiswa();
+        Mahasiswa_04 mhs1 = new Mahasiswa_04();
 
         mhs1.nama = "Budi Santoso";
         mhs1.umur = 20;

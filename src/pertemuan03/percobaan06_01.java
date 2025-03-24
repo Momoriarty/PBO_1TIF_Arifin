@@ -10,13 +10,13 @@ import java.util.Scanner;
  *
  * @author LENOVO
  */
-class PeminjamanBuku {
+class PeminjamanBuku1 {
 
     String namaPeminjam;
     String judulBuku;
     int durasiPinjam;
 
-    PeminjamanBuku(String namaPeminjam, String judulBuku, int durasiPinjam) {
+    PeminjamanBuku1(String namaPeminjam, String judulBuku, int durasiPinjam) {
         this.namaPeminjam = namaPeminjam;
         this.judulBuku = judulBuku;
         this.durasiPinjam = durasiPinjam;
@@ -55,7 +55,7 @@ public class percobaan06_01 {
         System.out.print("Masukkan durasi peminjaman (hari) : ");
         int durasi = input.nextInt();
 
-        PeminjamanBuku pinjam = new PeminjamanBuku(nama, judul, durasi);
+        PeminjamanBuku1 pinjam = new PeminjamanBuku1(nama, judul, durasi);
 
         pinjam.tampilkanDetailPeminjaman();
 
